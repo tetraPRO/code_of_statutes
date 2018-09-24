@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuItem?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="code.controller.Controller">
+    <MenuBar fx:id="menuBar" layoutY="-4.0" prefHeight="29.0" prefWidth="500.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <menus>
+            <Menu text="File">
+                <MenuItem text="Open"/>
+                <MenuItem text="Save"/>
+            </Menu>
+            <Menu text="Edit">
+                <MenuItem text="Domicile"/>
+            </Menu>
+            <Menu text="Words Of Art">
+                <MenuItem text="United States"/>
+                <MenuItem text="The States"/>
+                <MenuItem text="US citizen"/>
+                <MenuItem text="Resident"/>
+                <MenuItem text="US person"/>
+                <MenuItem text="Employer"/>
+                <MenuItem text="Employee"/>
+                <MenuItem text="Individual"/>
+                <MenuItem text="Trade or Business"/>
+
+            </Menu>
+            <Menu text="Maxums of Law"><!--Bouvier’s Maxims of Law (1856); SOURCE: http://famguardian.org/Publications/BouvierMaximsOfLaw/BouviersMaxims.htm -->
+                <MenuItem text="Volunti non fit injuria"/><!-- He who consents cannot receive an injury 2 Bouv. Inst. n. 2279, 2327; 4 T. R. 657; Shelf. on mar. & Div. 449 -->
+                <MenuItem text="Consensus tollit errorem"/><!-- Consent removes or obviates a mistake Co. Litt. 126. -->
+                <MenuItem text="Melius est omnia mala pati quam malo concentire"/><!-- It is better to suffer every wrong or ill, than to consent to it 3 Co. Inst. 23. -->
+                <MenuItem text="Nemo videtur fraudare eos qui sciunt, et consentiunt"/><!-- One cannot complain of having been deceived when he knew the fact and gave his consent Dig. 50, 17, 145. -->
+                <MenuItem text="Consensus facit legem"/><!-- Consent makes the law. A contract is a law between the parties, which can acquire force only by consent -->
+                <MenuItem text="Cujus est commodum ejus debet esse incommodum"/><!-- He who receives the benefit should also bear the disadvantage -->
+                <MenuItem text="Que sentit commodum, sentire debet et onus"/><!-- He who derives a benefit from a thing, ought to feel the disadvantages attending it. 2 Bouv. Inst. n. 1433 -->
+                <MenuItem text="Nemo dat qui non habet"/><!-- No one can give who does not possess. Jenk. Cent. 250. -->
+                <MenuItem text="Nemo plus juris ad alienum transfere potest, quam ispe habent"/><!-- One cannot transfer to another a right which he has not -->
+                <MenuItem text="Nemo potest facere per alium quod per se non potest"/><!-- No one can do that by another which he cannot do by himself -->
+                <MenuItem text="Qui per alium facit per seipsum facere videtur"/><!-- He who does anything through another, is considered as doing it himself Co. Litt. 258. -->
+                <MenuItem text="Quicpuid acquiritur servo, acquiritur domino"/><!-- Whatever is acquired by the servant, is acquired for the master. 15 Bin. Ab. 327. -->
+                <MenuItem text="Quod per me non possum, nec per alium"/><!-- What I cannot do in person, I cannot do by proxy. 4 Co. 24. -->
+                <MenuItem text="Invito beneficium non datur. Vide Assent."/><!-- No one is obliged to accept a benefit against his consent. But if he does not dissent he will be considered as assenting Dig. 50, 17, 69. -->
+                <MenuItem text="Potest quis renunciare pro se, et suis, juri quod pro se introductum est"/><!-- A man may relinquish, for himself and his heirs, a right which was introduced for his own benefit. See 1 Bouv. Inst. n. 83 -->
+                <MenuItem text="Quilibet potest renunciare juri pro se inducto"/><!-- Any one may renounce a law introduced for his own benefit. To this rule there are some exceptions. See 1 Bouv. Inst. n. 83. -->
+                <MenuItem text=""/><!--  -->
+                <MenuItem text=""/><!--  -->
+            </Menu>
+            <Menu text="Titles of the Code">
+                <MenuItem text=""/>
+            </Menu>
+            <Menu text="Supreme Court">
+                <!--**Must not use government numbers and federal benifits**
+                    “What evidence refutes a good faith defense will depend on the facts and circumstances of each case. It is often
+                    helpful to focus on evidence that shows the defendant knew the law but disregarded it or was simply defying it.
+                    For instance, evidence that the defendant received proper advice from a CPA or tax preparer, or that the
+                    defendant failed to consult legitimate sources about his or her understanding of the tax laws can be helpful. **To
+                    refute claims that wages are not income, that the defendant did not understand the meaning of “wages,” or
+                    that the defendant is a state citizen but not a citizen of the United States, look for loan applications during the
+                    prosecution period. Tax defiers and sovereign citizens never seem to have a problem understanding the
+                    definition of income on a loan application. They also do not hesitate to check the “yes” box to the question
+                    “are you a U.S. citizen.” Any evidence that the defendant accepted Government benefits, such as
+                    unemployment, Medicare, social security, or the Alaska Permanent Fund Dividend will also be helpful to refute
+                    the defendant’s claims that he or she is not a citizen subject to federal laws.**”
+                    [Prosecuting Tax Defier and Sovereign Citizen Cases—Frequently Asked Questions, U.S. Attorneys Bulletin,
+                    Volume 61, No. 2, March 2013, p. 48;
+                    SOURCE: http://famguardian.org/Publications/USAttyBulletins/usab6102.pdf]
+                -->
+                <MenuItem text=""/>
+            </Menu>
+        </menus>
+    </MenuBar>
+</AnchorPane>
